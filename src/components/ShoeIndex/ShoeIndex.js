@@ -47,15 +47,23 @@ const Wrapper = styled.div`
   display: flex;
   flex-direction: row-reverse;
   gap: 32px;
+  align-items: baseline;
 `;
 
-const LeftColumn = styled.div``;
+const LeftColumn = styled.div`
+  flex-basis: 248px;
+  gap: 32px;
+`;
 
-const MainColumn = styled.div``;
+const MainColumn = styled.div`
+  flex: 1;
+`;
 
 const Header = styled.header`
    /* CD */
    display: flex;
+   align-items: baseline;
+   justify-content: space-between;
 `;
 
 
@@ -63,7 +71,7 @@ const Title = styled.h2`
   font-size: 1.5rem;
   font-weight: ${WEIGHTS.medium};
   /* CD */
-  margin-right: auto;
+  /* margin-right: auto; */
 `;
 
 export default ShoeIndex;

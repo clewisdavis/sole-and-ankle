@@ -35,7 +35,7 @@ const Select = ({ label, value, children, ...delegated }) => {
 const Wrapper = styled.label`
   /* CD Added */
   display: flex;
-  align-items: center;
+  align-items: baseline;
 `;
 
 const VisibleLabel = styled.span`

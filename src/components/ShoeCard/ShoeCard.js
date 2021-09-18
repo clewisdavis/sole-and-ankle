@@ -54,7 +54,7 @@ const Link = styled.a`
   text-decoration: none;
   color: inherit;
   /* CD */
-  flex: 1 1 340px;
+  /* flex: 1 1 340px; */
 `;
 
 const Wrapper = styled.article`
